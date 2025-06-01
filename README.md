@@ -3,7 +3,8 @@ GenericSafetynetFix is a android magisk/kernelsu module that is a basic module s
 
 How does it work?
 It applies a bunch of props:
-resetprop -n ro.boot.veritymode "enforcing"
+
+resetprop -n ro.boot.veritymode "enforcing"	
 resetprop -n ro.boot.verifiedbootstate "green"
 resetprop -n vendor.boot.verifiedbootstate "green"
 resetprop -n ro.boot.vbmeta.device_state "locked"
